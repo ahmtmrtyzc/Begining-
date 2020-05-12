@@ -1,0 +1,64 @@
+package Week_1monday;
+
+public class Variables {
+
+	public static void main(String[] args) {
+		// Variables are placeholder in RAM
+		
+		// 1) Datatype variableName = value;
+		
+		// 2) Datatype variableName;
+		//	  VariableName = value;
+		
+		// Byte Examples
+		byte myByte = 127; //-128 --(127)
+		System.out.println("My Byte Value : " + myByte );
+		
+		//Short Example
+		short myShort = 3000;
+		System.out.println("My Short Value : " + myShort );
+		
+		// Integer Example
+		int myInt = 9000;
+		System.out.println("My Int Value : " + myInt );
+		
+		// Long Example
+		long myLong = 10000000L;
+		System.out.println("My Long Value : " + myLong );
+		
+		// Float Example
+		float myFloat = 42.98F;
+		System.out.println("My Float Value : " + myFloat);
+		
+		// Double Example
+		double myDouble = 8000.9D;
+		System.out.println("My Double Value : " + myDouble );
+		
+		//Boolean Example True-False
+		Boolean myBoolean1 = true;
+		Boolean	myBoolean2 = false;
+		System.out.println("My Boolean1 Value : " + myBoolean1 );
+		System.out.println("My Boolean2 Value : " + myBoolean2 );
+		
+		// Character Example
+		char myChar = '#';
+		System.out.println("My Char Value : " + myChar );
+		
+		// Non Primitive Data Type : String
+		String myString = "Ahmet Murat YAZICI have problem with big letters";
+		System.out.println(myString);
+		String myString2 = "He has solved";
+		System.out.println(myString2);
+		
+		
+		
+		
+		
+				
+		
+		
+		
+
+	}
+
+}
